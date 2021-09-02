@@ -1,0 +1,26 @@
+{
+  "name": "study-webpack",
+  "version": "1.0.0",
+  "repository": "https://github.com/Ryemail/study-webpack.git",
+  "author": "MY <ruany@golive.cc>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack serve --mode=development --config webpack.config.js",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.2",
+    "json5": "^2.2.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.2.0",
+    "toml": "^3.0.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^4.1.0",
+    "yamljs": "^0.3.0"
+  }
+}
