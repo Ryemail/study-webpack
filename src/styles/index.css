@@ -4,11 +4,17 @@ body {
 }
 
 .date {
-	font-size: 18px;
+	font-size: 20px;
+	color: coral;
 }
 
 header {
 	height: 60px;
-	padding: 0 40px;
+	line-height: 60px;
 	background: url('../images/logo.svg');
+	background-repeat: no-repeat;
+	padding: 0 40px 0 140px;
+	background-color: darkgrey;
+	background-size: 120px auto;
+	background-position: 20px center;
 }

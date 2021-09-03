@@ -5,15 +5,20 @@
   "author": "MY <ruany@golive.cc>",
   "license": "MIT",
   "scripts": {
-    "serve": "webpack serve --mode=development --config webpack.config.js",
+    "serve": "webpack serve --mode=development --config ./build/webpack.config.js",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "watch:split": "webpack --config ./build/webpack.split.config.js --watch",
+    "serve:split": "webpack serve --config ./build/webpack.split.config.js",
+    "serve:node": "node server.js",
+    "library": "webpack  --env production --config ./build/webpack.library.config.js"
   },
   "devDependencies": {
     "css-loader": "^6.2.0",
     "express": "^4.17.1",
     "html-webpack-plugin": "^5.3.2",
     "json5": "^2.2.0",
+    "lodash": "^4.17.21",
     "style-loader": "^3.2.1",
     "terser-webpack-plugin": "^5.2.0",
     "toml": "^3.0.0",
@@ -21,6 +26,7 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-middleware": "^5.0.0",
     "webpack-dev-server": "^4.1.0",
+    "webpack-hot-middleware": "^2.25.0",
     "yamljs": "^0.3.0"
   }
 }

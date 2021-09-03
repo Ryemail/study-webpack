@@ -31,7 +31,7 @@ function createApp() {
 
 	root.appendChild(dateEl);
 
-	console.log(json, yaml, toml);
+	console.log(json, yaml);
 
 	date(function () {
 		dateEl.innerHTML = '<div class="date">' + new Date() + '</div>';
@@ -40,3 +40,7 @@ function createApp() {
 
 createApp();
 createHeader();
+
+if (module.hot) {
+	module.hot.accept();
+}
