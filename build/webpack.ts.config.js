@@ -28,7 +28,7 @@ module.exports = function(env, argv) {
 			]
 		},
 		resolve: {
-			extensions: ['.tsx', '.ts', '.d.ts']
+			extensions: ['.tsx', '.ts', '.js']
 		},
 		optimization: {
 			runtimeChunk: 'single',

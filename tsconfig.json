@@ -2,14 +2,14 @@
 	"compilerOptions": {
 		"baseUrl": "./typescript",
 		"outDir": "./dist/typescript",
-		"noImplicitAny": true,
 		"module": "es6",
 		"target": "es5",
 		"jsx": "react",
-		"allowJs": true,
+		"allowJs": false,
 		"sourceMap": true,
-		"allowSyntheticDefaultImports": true
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true
 	},
-	"include": ["typescript"],
+	"include": ["typescript/**/*"],
 	"exclude": ["node_modules"]
 }
