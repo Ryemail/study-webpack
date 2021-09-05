@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./typescript",
+		"outDir": "./dist/typescript",
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "es5",
+		"jsx": "react",
+		"allowJs": true,
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["typescript"],
+	"exclude": ["node_modules"]
+}
